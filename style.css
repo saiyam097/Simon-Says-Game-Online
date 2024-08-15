@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: #D8DAD3;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    margin: 2.5rem;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btnFlash {
+    background-color: white !important; /* Flash to white */
+    box-shadow: 0 0 20px white;
+    transition: background-color 0.5s, box-shadow 0.5s; /* Smooth transition */
+}
+
+.userFlash {
+    background-color: green !important; /* Flash to white */
+    box-shadow: 0 0 20px white;
+    transition: background-color 0.5s, box-shadow 0.5s; /* Smooth transition */
+}
+
+.highScore{
+    background-color: yellow;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70rem;
+    
+}
+
+
